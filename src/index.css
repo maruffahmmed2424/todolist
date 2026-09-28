@@ -1,0 +1,23 @@
+:root {
+  --sans: 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  --heading: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  font-family: var(--sans);
+  color: #626259;
+  background: #fbfaf8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+}
+
+* { box-sizing: border-box; }
+
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+
+button, input, textarea { font: inherit; }
+button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid #9aa68c; outline-offset: 2px; }
+
+p { margin: 0; }
+
+#root { min-height: 100vh; }
